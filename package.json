@@ -9,7 +9,9 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "dependencies": {},
+  "dependencies": {
+    "nx": "^20.4.6"
+  },
   "devDependencies": {
     "lerna": "^8.2.0"
   }
