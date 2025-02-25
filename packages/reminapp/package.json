@@ -1,0 +1,17 @@
+{
+  "name": "reminapp",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "footer": "workspace:^",
+    "header": "workspace:^"
+  }
+}

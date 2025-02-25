@@ -1,0 +1,78 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.4.6",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".gitignore",
+        "hash": "16722851342459420272"
+      },
+      {
+        "file": ".npmrc",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "lerna.json",
+        "hash": "1841662996297644301"
+      },
+      {
+        "file": "nx.json",
+        "hash": "12790402754951034599"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "14134821731971629540"
+      },
+      {
+        "file": "package.json",
+        "hash": "2816296973714482735"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "11121639024523268372"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "1914197835122565448"
+      }
+    ],
+    "projectFileMap": {
+      "header": [
+        {
+          "file": "packages/header/index.js",
+          "hash": "6317509597123880205"
+        },
+        {
+          "file": "packages/header/package.json",
+          "hash": "6691231283898750855"
+        }
+      ],
+      "reminapp": [
+        {
+          "file": "packages/reminapp/index.js",
+          "hash": "9535136693970678100"
+        },
+        {
+          "file": "packages/reminapp/package.json",
+          "hash": "2392768916551692492",
+          "deps": [
+            "footer",
+            "header"
+          ]
+        }
+      ],
+      "footer": [
+        {
+          "file": "packages/footer/index.js",
+          "hash": "9789290030947816793"
+        },
+        {
+          "file": "packages/footer/package.json",
+          "hash": "3268540639535270793"
+        }
+      ]
+    }
+  }
+}
